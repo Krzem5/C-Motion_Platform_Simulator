@@ -28,4 +28,4 @@ else:
 		sys.exit(1)
 os.chdir(cd)
 if ("--run" in sys.argv):
-	subprocess.run(["build/$$$NAM$$$.exe"])
+	subprocess.run(["build/motion_platform_simulator.exe"])
